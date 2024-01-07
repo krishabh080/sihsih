@@ -13,5 +13,7 @@ if __name__ == "__main__":
     user_input = sys.stdin.read().strip()
     #user_input = input("Enter a sentence: ")
     stemmed_result = perform_stemming(user_input)
-    print(stemmed_result)
+    
+    text=" ".join(stemmed_result)
+    print(text)
 
