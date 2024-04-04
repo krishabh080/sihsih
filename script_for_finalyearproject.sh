@@ -48,3 +48,4 @@ mv stopwords.txt /var/www/cgi-bin/
 # Set permissions for stopwords.txt
 chown apache:apache /var/www/cgi-bin/stopwords.txt
 
+#transfer the model from local system through scp and then run the chown commands for that also.
